@@ -3,7 +3,6 @@ import CredentialsProvider from "next-auth/providers/credentials";
 import GoogleProvider from "next-auth/providers/google";
 
 import { authenticateUser } from '../../../../lib/firebase/firebase.utils';
-import {authenticateToken } from '../../../../lib/firebase/firebase-admin.utils';
 
 export const authOptions = {
     providers: [
