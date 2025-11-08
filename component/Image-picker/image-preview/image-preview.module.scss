@@ -1,0 +1,21 @@
+.preview {
+    width: 15rem;
+    height: 10rem;
+    border: 2px solid #887975;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #a4abb9;
+    position: relative;
+    float: left;
+
+    p {
+        margin: 0;
+        padding: 1rem;
+    }
+
+    img {
+        object-fit: cover;
+    }
+}

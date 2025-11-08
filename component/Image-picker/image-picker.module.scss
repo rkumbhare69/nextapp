@@ -1,0 +1,29 @@
+.pickedImageGroup {
+    display: flex;
+    gap: 10px;
+
+    &.group {
+        position: relative;
+        margin: 45px 0;
+    }
+
+    .fileInput {
+        display: none;
+    }
+
+    .pickImageButton {
+        width: fit-content;
+        height: fit-content;
+        border: 0;
+        padding: 10px 30px;
+        background: linear-gradient(90deg, #887975, #e4e0d8);
+        border: none;
+        color: #ffffff;
+        border-radius: 2px;
+        cursor: pointer;
+        font: inherit;
+        font-size: 18px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+}

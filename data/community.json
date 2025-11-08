@@ -1,0 +1,32 @@
+{
+    "header" : {
+        "title": "One shared passion: ",
+        "titleParam": "Food",
+        "subtitle": "Join our community and share your favorite recipes!"
+    },
+    "main": {
+        "title": "Community Perks",
+        "description": "Our community is a vibrant space where food enthusiasts come together to explore new recipes, share cooking tips, and celebrate the joy of food. Whether you're a seasoned chef or just starting out, there's a place for you here.",
+        "buttonText": "Join Now",
+        "perks": [
+            {
+                "icon": "mealIcon",
+                "alt": "A delicious meal",
+                "title": "Share & discover recipes",
+                "description": "Access a treasure trove of unique recipes shared by community members."
+            },
+            {
+                "icon": "communityIcon",
+                "alt": "A crowd of people, cooking together",
+                "title": "Find new friends & like-minded people",
+                "description": "Learn from experienced cooks and improve your culinary skills."
+            },
+            {
+                "icon": "eventsIcon",
+                "alt": "A group of people enjoying a food event",
+                "title": "Participate in exclusive events",
+                "description": "Connect with food lovers from around the world and share your passion."
+            }
+        ]
+    }
+}

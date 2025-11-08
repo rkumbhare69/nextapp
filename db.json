@@ -1,0 +1,469 @@
+{
+  "meals": [
+    {
+      "id": "1",
+      "slug": "juicy-cheese-burger123",
+      "title": "Juicy Cheese Burger",
+      "creator": {
+        "name": "John Doe",
+        "email": "johndoe@example.com"
+      },
+      "details": {
+        "image": "/images/burger.jpg",
+        "summary": "A mouth-watering burger with a juicy beef patty and melted cheese, served in a soft bun.",
+        "instructions": "<br />1. Prepare the patty: Mix 200g of ground beef with salt and pepper. Form into a patty.<br />2. Cook the patty: Heat a pan with a bit of oil. Cook the patty for 2-3 minutes each side, until browned.<br />3. Assemble the burger: Toast the burger bun halves. Place lettuce and tomato on the bottom half. Add the cooked patty and top with a slice of cheese.<br />4. Serve: Complete the assembly with the top bun and serve hot."
+      },
+      "date": "2025-12-01"
+    },
+    {
+      "id": "2",
+      "slug": "spicy-curry",
+      "title": "Spicy Curry",
+      "details": {
+        "image": "/images/curry.jpg",
+        "summary": "A rich and spicy curry, infused with exotic spices and creamy coconut milk.",
+        "instructions": "1. Chop vegetables: Cut your choice of vegetables into bite-sized pieces. <br /> 2. Sauté vegetables: In a pan with oil, sauté the vegetables until they start to soften. <br />3. Add curry paste: Stir in 2 tablespoons of curry paste and cook for another minute. <br />4. Simmer with coconut milk: Pour in 500ml of coconut milk and bring to a simmer. Let it cook for about 15 minutes.<br />5. Serve: Enjoy this creamy curry with rice or bread."
+      },
+      "creator": {
+        "name": "Max Schwarz",
+        "email": "max@example.com"
+      },
+      "date": "2023-02-20"
+    },
+    {
+      "id": "3",
+      "slug": "homemade-dumplings",
+      "title": "Homemade Dumplings",
+      "details": {
+        "image": "/images/dumplings.jpg",
+        "summary": "Tender dumplings filled with savory meat and vegetables, steamed to perfection.",
+        "instructions": "1. Prepare the filling: Mix minced meat, shredded vegetables, and spices. <br />2. Fill the dumplings: Place a spoonful of filling in the center of each dumpling wrapper. Wet the edges and fold to seal. <br />3. Steam the dumplings: Arrange dumplings in a steamer. Steam for about 10 minutes.<br />4. Serve: Enjoy these dumplings hot, with a dipping sauce of your choice."
+      },
+      "creator": {
+        "name": "Emily Chen",
+        "email": "emilychen@example.com"
+      },
+      "date": "2023-08-12"
+    },
+    {
+      "id": "4",
+      "slug": "classic-mac-n-cheese",
+      "title": "Classic Mac n Cheese",
+      "details": {
+        "image": "/images/macncheese.jpg",
+        "summary": "Creamy and cheesy macaroni, a comforting classic that's always a crowd-pleaser.",
+        "instructions": "1. Cook the macaroni: Boil macaroni according to package instructions until al dente.<br />2. Prepare cheese sauce: In a saucepan, melt butter, add flour, and gradually whisk in milk until thickened. Stir in grated cheese until melted.<br />3. Combine: Mix the cheese sauce with the drained macaroni.<br/> 4. Bake: Transfer to a baking dish, top with breadcrumbs, and bake until golden.<br/>5. Serve: Serve hot, garnished with parsley if desired."
+      },
+      "creator": {
+        "name": "Laura Smith",
+        "email": "laurasmith@example.com"
+      },
+      "date": "2023-12-26"
+    },
+    {
+      "id": "5",
+      "title": "Authentic Pizza",
+      "slug": "authentic-pizza",
+      "details": {
+        "image": "/images/pizza.jpg",
+        "summary": "Hand-tossed pizza with a tangy tomato sauce, fresh toppings, and melted cheese.",
+        "instructions": "1. Prepare the dough: Knead pizza dough and let it rise until doubled in size.<br/>2. Shape and add toppings: Roll out the dough, spread tomato sauce, and add your favorite toppings and cheese.<br/>3. Bake the pizza: Bake in a preheated oven at 220°C for about 15-20 minutes.<br/>4. Serve: Slice hot and enjoy with a sprinkle of basil leaves."
+      },
+      "creator": {
+        "name": "Mario Rossi",
+        "email": "mariorossi@example.com"
+      },
+      "date": "2025-05-08"
+    },
+    {
+      "id": "6",
+      "title": "Wiener Schnitzel",
+      "slug": "wiener-schnitzel",
+      "details": {
+        "image": "/images/schnitzel.jpg",
+        "summary": "Crispy, golden-brown breaded veal cutlet, a classic Austrian dish.",
+        "instructions": "1. Prepare the veal: Pound veal cutlets to an even thickness.<br/>2. Bread the veal: Coat each cutlet in flour, dip in beaten eggs, and then in breadcrumbs.<br/> 3. Fry the schnitzel: Heat oil in a pan and fry each schnitzel until golden brown on both sides.<br/>4. Serve: Serve hot with a slice of lemon and a side of potato salad or greens."
+      },
+      "creator": {
+        "name": "Franz Huber",
+        "email": "franzhuber@example.com"
+      },
+      "date": "2024-02-25"
+    },
+    {
+      "id": "7",
+      "title": "Fresh Tomato Salad",
+      "slug": "fresh-tomato-salad",
+      "details": {
+        "image": "/images/tomato-salad.jpg",
+        "summary": "A light and refreshing salad with ripe tomatoes, fresh basil, and a tangy vinaigrette.",
+        "instructions": "1. Prepare the tomatoes: Slice fresh tomatoes and arrange them on a plate.<br/>2. Add herbs and seasoning: Sprinkle chopped basil, salt, and pepper over the tomatoes.<br/>3. Dress the salad: Drizzle with olive oil and balsamic vinegar.<br/>  4. Serve: Enjoy this simple, flavorful salad as a side dish or light meal."
+      },
+      "creator": {
+        "name": "Sophia Green",
+        "email": "sophiagreen@example.com"
+      },
+      "date": "2022-01-04"
+    },
+    {
+      "id": "8",
+      "slug": "spicy-chiken",
+      "title": "Spicy chiken",
+      "details": {
+        "image": "/images/curry.jpg",
+        "summary": "A rich and spicy curry, infused with exotic spices and creamy coconut milk.",
+        "instructions": "1. Chop vegetables: Cut your choice of vegetables into bite-sized pieces. <br /> 2. Sauté vegetables: In a pan with oil, sauté the vegetables until they start to soften. <br />3. Add curry paste: Stir in 2 tablespoons of curry paste and cook for another minute. <br />4. Simmer with coconut milk: Pour in 500ml of coconut milk and bring to a simmer. Let it cook for about 15 minutes.<br />5. Serve: Enjoy this creamy curry with rice or bread."
+      },
+      "creator": {
+        "name": "Rakesh kumbhare",
+        "email": "rakesh@example.com"
+      },
+      "date": "2021-03-28"
+    },
+    {
+      "id": "101",
+      "slug": "15-Minute-Vegetable-Stir-Fry-Noodle",
+      "title": "15-Minute Vegetable Stir-Fry Noodle",
+      "creator": {
+        "name": "Rakesh kumbhare",
+        "email": "rkumbhare69@gmail.com"
+      },
+      "details": {
+        "image": "/images/15-Minute_Vegetable_Stir-Fry_Noodle.png",
+        "summary": "Here’s a quick and delicious recipe you can try: 15-Minute Vegetable Stir-Fry Noodles — healthy, fast, and full of flavor! Below are the ingredients, steps, and a preview image to get you inspired.",
+        "instructions": "- Make the sauce: Mix soy sauce, vinegar, maple syrup, ginger, and chili flakes in a bowl.\r\n- Prep veggies: Wash and chop all vegetables into thin strips.\r\n- Cook veggies: In a large pan or wok, heat sesame oil. Add garlic and green onions, cook for 30 seconds. Add veggies and stir-fry for 5 minutes.\r\n- Soften noodles: Soak noodles in hot water per package instructions, then drain.\r\n- Combine: Add noodles and sauce to the pan. Toss everything together for 2–3 minutes.\r\n- Serve: Sprinkle with sesame seeds and green onions. Enjoy hot!"
+      },
+      "date": "2025-10-27"
+    },
+    {
+      "id": "102",
+      "slug": "Garlic-Butter-Shrimp",
+      "title": "Garlic Butter Shrimp",
+      "creator": {
+        "name": "Rakesh kumbhare",
+        "email": "rkumbhare69@gmail.com"
+      },
+      "details": {
+        "image": "/images/Garlic_Butter_Shrimp.jpg",
+        "summary": "Garlic Butter Shrimp with Lemon and Parsley — perfect for a light dinner or a flavorful appetizer.",
+        "instructions": "🧂 Ingredients:\r\n- 300g raw shrimp, peeled and deveined\r\n- 3 tbsp unsalted butter\r\n- 4 garlic cloves, minced\r\n- Juice of ½ lemon\r\n- Zest of 1 lemon\r\n- Salt and pepper to taste\r\n- 2 tbsp chopped fresh parsley\r\n- Optional: chili flakes for heat\r\n🍳 Instructions:\r\n- Prep shrimp: Pat dry and season with salt and pepper.\r\n- Sauté garlic: Melt butter in a skillet over medium heat. Add garlic and cook for 30 seconds.\r\n- Cook shrimp: Add shrimp to the pan and cook for 2–3 minutes per side until pink and opaque.\r\n- Add lemon: Squeeze lemon juice and sprinkle zest over shrimp. Toss to coat.\r\n- Finish: Stir in parsley and chili flakes (if using). Serve immediately with crusty bread or over rice."
+      },
+      "date": "2024-10-28"
+    },
+    {
+      "id": "898a",
+      "slug": "10-Minute-Quesadillas",
+      "title": "10-Minute Quesadillas",
+      "creator": {
+        "name": "Rakesh kumbhare",
+        "email": "rkumbhare69@gmail.com"
+      },
+      "details": {
+        "image": "/images/10-Minute_Quesadillas.jpg",
+        "summary": "Quesadillas are a great option for a fast, filling meal using ingredients you likely have on hand.",
+        "instructions": "Prep: Chop any fillings like pre-cooked chicken, vegetables, or use canned beans. Grate cheese.\r\nAssemble: Place one large tortilla in a lightly oiled pan over medium heat. Sprinkle cheese and your desired fillings on one half.\r\nFold & Cook: Fold the other half of the tortilla over the fillings to create a half-moon shape.\r\nFinish: Cook for 2-3 minutes per side, pressing gently with a spatula, until the tortilla is golden brown and the cheese is melted.\r\nServe: Slice into wedges and serve immediately, perhaps with salsa or sour cream."
+      },
+      "date": "2023-01-19"
+    },
+    {
+      "id": "baa0",
+      "slug": "teset",
+      "title": "teset",
+      "creator": {
+        "name": "Rakesh kumbhare",
+        "email": "rkumbhare69@gmail.com"
+      },
+      "details": {
+        "image": "/images/teset.jpg",
+        "summary": " ests",
+        "instructions": "sadf saf asfd a"
+      },
+      "date": "2021-03-01"
+    },
+    {
+      "id": "9ee1",
+      "slug": "Garlic-Butter-Pasta",
+      "title": "Garlic Butter Pasta",
+      "creator": {
+        "name": "Rakesh kumbhare",
+        "email": "rkumbhare69@gmail.com"
+      },
+      "details": {
+        "image": "/images/Garlic_Butter_Pasta.jpg",
+        "summary": "quick Garlic Butter Pasta — simple, flavorful, and ready in minutes.",
+        "instructions": "Cook Pasta:\r\nBoil water with a pinch of salt. Add spaghetti and cook until al dente (about 8–10 minutes). Reserve ½ cup of pasta water before draining.\r\n\r\n\r\nPrepare Garlic Butter Sauce:\r\nIn a large pan, heat olive oil and butter over medium heat. Add sliced garlic and sauté until golden and fragrant (do not burn).\r\n\r\n\r\nCombine Pasta & Sauce:\r\nAdd cooked pasta to the pan. Pour in reserved pasta water to create a silky sauce. Toss well until pasta is coated.\r\n\r\n\r\nSeason & Garnish:\r\nAdd salt, black pepper, and chili flakes (optional). Sprinkle fresh parsley on top.\r\n\r\n\r\nServe Hot:\r\nPlate the pasta and enjoy immediately. Perfect with grated Parmesan cheese if desired."
+      },
+      "date": "2022-08-17"
+    },
+    {
+      "id": "6752",
+      "slug": "Quick-Chicken-and-Vegetable-Stir-Fry",
+      "title": "Quick Chicken and Vegetable Stir-Fry",
+      "creator": {
+        "name": "Rakesh kumbhare",
+        "email": "rkumbhare69@gmail.com"
+      },
+      "details": {
+        "image": "/images/quick-chicken-and-vegetable-stir-fry.jpg",
+        "summary": "A healthy and versatile meal that can be prepared quickly, especially if you use pre-cut vegetables. ",
+        "instructions": "<p>Heat the oil in a large skillet or wok over medium-high heat.</p>\r\n<p>Add the sliced chicken and cook until it's no longer pink and is cooked through. Remove the chicken and set it aside.</p>\r\n<p>Add the mixed vegetables to the skillet and stir-fry for 3-5 minutes until they are crisp-tender.</p>\r\n<p>Return the chicken to the skillet.</p>\r\n<p>Stir in the soy sauce and sesame oil (if using), tossing everything to combine and heat through.</p>\r\n<p>Serve immediately over rice or noodles. </p>"
+      },
+      "date": "2025-08-08"
+    },
+    {
+      "id": "07fe",
+      "slug": "--sfd-sfds-f",
+      "title": "  sfd sfds f",
+      "creator": {
+        "name": "Rakesh kumbhare",
+        "email": "rkumbhare69@gmail.com"
+      },
+      "details": {
+        "image": "/images/sfd-sfds-f.jpg",
+        "summary": " fdsfds ds fdsf ",
+        "instructions": "ds fsd fds fds"
+      },
+      "date": "2023-04-22"
+    },
+    {
+      "id": "bbe8",
+      "slug": "-dsfds-fsdf-s",
+      "title": " dsfds fsdf s",
+      "creator": {
+        "name": " sfasf f",
+        "email": "rkumbhare69@gmail.com"
+      },
+      "details": {
+        "image": "/images/dsfds-fsdf-s.jpg",
+        "summary": " sdfds fsd fs",
+        "instructions": "ds fds fds fsd"
+      },
+      "date": "2023-11-03"
+    },
+    {
+      "id": "f00d",
+      "slug": "saf-sdf-sad",
+      "title": "saf sdf sad",
+      "creator": {
+        "name": "Rakesh kumbhare",
+        "email": "rkumbhare69@gmail.com"
+      },
+      "details": {
+        "image": "/images/saf-sdf-sad.jpg",
+        "summary": "s dfas fdaf",
+        "instructions": " sadfas da"
+      },
+      "date": "2020-12-23"
+    },
+    {
+      "id": "52bc",
+      "slug": "my-recepi-1111",
+      "title": "my recepi 1111",
+      "creator": {
+        "name": "Rakesh kumbhare",
+        "email": "rkumbhare07@gmail.com"
+      },
+      "details": {
+        "image": "/images/my-recepi-1111.jpg",
+        "summary": "my short summary of recepi 111",
+        "instructions": "no instructions yets"
+      },
+      "date": "2020-01-25"
+    },
+    {
+      "id": "3cc1",
+      "slug": "my-recepi-222",
+      "title": "my recepi 222",
+      "creator": {
+        "name": "Rakesh kumbhare",
+        "email": "rkumbhare07@gmail.com"
+      },
+      "details": {
+        "image": "/images/my-recepi-222.jpg",
+        "summary": "short summary of my recepi 222",
+        "instructions": "   no instrucitons"
+      },
+      "date": "2021-02-15"
+    },
+    {
+      "id": "201",
+      "slug": "chicken-alfredo-pasta",
+      "title": "Chicken Alfredo Pasta",
+      "creator": {
+        "name": "Rakesh kumbhare",
+        "email": "rkumbhare69@gmail.com"
+      },
+      "details": {
+        "image": "/images/Chicken-Alfredo-Pasta-5-688x1032.jpg",
+        "summary": "Creamy Alfredo sauce with tender chicken and fettuccine pasta.",
+        "instructions": "1. Cook pasta until al dente.\n2. Prepare Alfredo sauce with butter, cream, and Parmesan.\n3. Cook chicken pieces until golden.\n4. Combine pasta, sauce, and chicken.\n5. Serve hot with parsley garnish."
+      },
+      "date": "2025-11-05"
+    },
+    {
+      "id": "202",
+      "slug": "vegetable-fried-rice",
+      "title": "Vegetable Fried Rice",
+      "creator": {
+        "name": "Rakesh kumbhare",
+        "email": "rkumbhare69@gmail.com"
+      },
+      "details": {
+        "image": "/images/fried-rice-with-mixed-vegetable-photo.jpg",
+        "summary": "A quick and flavorful fried rice loaded with fresh vegetables.",
+        "instructions": "1. Cook rice and let it cool.\n2. Stir-fry chopped vegetables in oil.\n3. Add rice and soy sauce.\n4. Toss until heated through.\n5. Serve hot."
+      },
+      "date": "2025-11-05"
+    },
+    {
+      "id": "203",
+      "slug": "grilled-salmon",
+      "title": "Grilled Salmon",
+      "creator": {
+        "name": "Rakesh kumbhare",
+        "email": "rkumbhare69@gmail.com"
+      },
+      "details": {
+        "image": "/images/1000_F_621474757_I2Gjr4rtZ1MQHKjYDVHzhj7TbAD62gOJ.jpg",
+        "summary": "Perfectly grilled salmon fillets with a hint of lemon and herbs.",
+        "instructions": "1. Season salmon with salt, pepper, and lemon juice.\n2. Preheat grill and cook salmon for 4-5 minutes per side.\n3. Serve with fresh herbs."
+      },
+      "date": "2025-11-05"
+    },
+    {
+      "id": "204",
+      "slug": "chocolate-lava-cake",
+      "title": "Chocolate Lava Cake",
+      "creator": {
+        "name": "Rakesh kumbhare",
+        "email": "rkumbhare69@gmail.com"
+      },
+      "details": {
+        "image": "/images/delicious-dessert-recipes-featuring-decadent-chocolate-lava-cakes-molten-centers-to-satisfy-any-sweet-tooth-high-quality-336982344.jpg",
+        "summary": "Decadent chocolate cake with a gooey molten center.",
+        "instructions": "1. Prepare batter with chocolate, butter, eggs, and sugar.\n2. Pour into ramekins and bake until edges are firm.\n3. Serve warm with ice cream."
+      },
+      "date": "2025-11-05"
+    },
+    {
+      "id": "205",
+      "slug": "caprese-salad",
+      "title": "Caprese Salad",
+      "creator": {
+        "name": "Rakesh kumbhare",
+        "email": "rkumbhare69@gmail.com"
+      },
+      "details": {
+        "image": "/images/Caprese-Salad_EXPS_FT20_50347_F_0610_1_home.jpg",
+        "summary": "Fresh mozzarella, tomatoes, and basil drizzled with olive oil.",
+        "instructions": "1. Slice tomatoes and mozzarella.\n2. Arrange with basil leaves.\n3. Drizzle olive oil and balsamic vinegar.\n4. Serve fresh."
+      },
+      "date": "2025-11-05"
+    },
+    {
+      "id": "206",
+      "slug": "beef-tacos",
+      "title": "Beef Tacos",
+      "creator": {
+        "name": "Rakesh kumbhare",
+        "email": "rkumbhare69@gmail.com"
+      },
+      "details": {
+        "image": "/images/beef-tacos.jpg",
+        "summary": "Crispy taco shells filled with seasoned beef and fresh toppings.",
+        "instructions": "1. Cook ground beef with taco seasoning.\n2. Fill taco shells with beef, lettuce, and cheese.\n3. Serve with salsa."
+      },
+      "date": "2025-11-05"
+    },
+    {
+      "id": "207",
+      "slug": "margherita-pizza",
+      "title": "Margherita Pizza",
+      "creator": {
+        "name": "Rakesh kumbhare",
+        "email": "rkumbhare69@gmail.com"
+      },
+      "details": {
+        "image": "/images/italian-pizza-margherita-fresh-tomatoes-mozzarella-basil-marjoram-43460353.jpg",
+        "summary": "Classic pizza topped with tomato, mozzarella, and basil.",
+        "instructions": "1. Prepare pizza dough and spread tomato sauce.\n2. Add mozzarella and basil.\n3. Bake until crust is golden.\n4. Serve hot."
+      },
+      "date": "2025-11-05"
+    },
+    {
+      "id": "208",
+      "slug": "pancakes",
+      "title": "Pancakes",
+      "creator": {
+        "name": "Rakesh kumbhare",
+        "email": "rkumbhare69@gmail.com"
+      },
+      "details": {
+        "image": "/images/pancakes-realistic-photo_1171540-5551.jpg",
+        "summary": "Fluffy pancakes served with syrup and butter.",
+        "instructions": "1. Mix flour, milk, eggs, and sugar.\n2. Cook batter on a hot griddle until golden.\n3. Serve with syrup."
+      },
+      "date": "2025-11-05"
+    },
+    {
+      "id": "209",
+      "slug": "greek-salad",
+      "title": "Greek Salad",
+      "creator": {
+        "name": "Rakesh kumbhare",
+        "email": "rkumbhare69@gmail.com"
+      },
+      "details": {
+        "image": "/images/greek-salad-main-recipe.jpg",
+        "summary": "A refreshing salad with cucumbers, tomatoes, olives, and feta.",
+        "instructions": "1. Chop vegetables and mix in a bowl.\n2. Add olives and feta cheese.\n3. Drizzle with olive oil and oregano.\n4. Serve chilled."
+      },
+      "date": "2025-11-05"
+    },
+    {
+      "id": "210",
+      "slug": "butter-chicken",
+      "title": "Butter Chicken",
+      "creator": {
+        "name": "Rakesh kumbhare",
+        "email": "rkumbhare69@gmail.com"
+      },
+      "details": {
+        "image": "/images/flavorful-indulgence-butter-chicken-dish-generative-by-ai-photo.jpeg",
+        "summary": "Rich and creamy butter chicken cooked in a spiced tomato gravy.",
+        "instructions": "1. Marinate chicken in yogurt and spices.\n2. Cook chicken and prepare tomato-based sauce.\n3. Add cream and butter.\n4. Serve with naan or rice."
+      },
+      "date": "2025-11-05"
+    },
+    {
+      "id": "f7f7",
+      "slug": "Holi-special-Traditional-Puranpoli",
+      "title": "Holi special Traditional Puranpoli",
+      "creator": {
+        "name": "minal kumbhare",
+        "email": "minal@gmail.com"
+      },
+      "details": {
+        "image": "/images/holi-special-traditional-puranpoli.jpg",
+        "summary": "Holi is incomplete without puranpoli. Today we are making puranpoli in traditional way. We are not using puran yantra or food processor for making puran. But we are using pata varvanta today. This is the authentic and traditional method. You must at least once try making puran using pata varvanta. Puranpoli turns out simply superb and melt in mouth. Let’s start…",
+        "instructions": "Step 1: Wash chana dal really good. Heat up water in a pan and add dal into it.\r\n<br />\r\nStep 2: When water begins to boil remove the froth that floats on the water.\r\n<br />\r\nStep 3: Add turmeric powder, oil and mix well. Cook dal on medium heat for at least 30 minutes.\r\n<br />\r\nStep 4: When dal is cooked well strain all the water from it and you can use it to make katachi amti.\r\n<br />\r\nStep 5: Mash the cooked dal a little and add gudh.\r\n<br />\r\nStep 6: Mix well and cook it together.\r\n<br />\r\nStep 7: When the puran begins to leave the edges of the pan it means it is cooked well.\r\n<br />\r\nStep 8: Add a pinch of salt, dry ginger powder, cardamom powder, nut meg powder, ghee and mix well.\r\n<br />\r\nStep 9: Turn off the gas and let the puran cool down.\r\n<br />\r\nStep 10: Beat the puran well with “pata varvanta” and transfer it into a bowl.\r\n<br />\r\nStep 11: Mix wheat flour, salt and add a little water at a time to knead soft dough. The consistency of the dough should be softer than the chapatti dough.\r\n<br />\r\nStep 12: Cover and rest the dough for at least 30 minutes.\r\n<br />\r\nStep 13: Add oil and knead the dough well again.\r\n<br />\r\nStep 14: Knead the dough well once again and take small portion from it.\r\n<br />\r\nStep 15: Make it smooth and even and roll out a pari from it in hands only.\r\n<br />\r\nStep 16: Fill in the puran and close the pari up.\r\n<br />\r\nStep 17: Sprinkle dry flour on the rolling board and roll puran poli from the dough ball.\r\n<br />\r\nStep 18: Heat up a pan on medium heat and transfer the poli on it.\r\n<br />\r\nStep 19: When lower side is roasted well and flip the poli over with hand.\r\n<br />\r\nStep 20: Spread ghee on upper side and flip the poli over.\r\n<br />\r\nStep 21: Spread ghee on other side and roast it well.\r\n<br />\r\nStep 22: When puran poli is roasted well from both sides take it off on a wire rack. Puran poli is all ready."
+      },
+      "date": "2025-11-06"
+    },
+    {
+      "id": "bd82",
+      "slug": "Masala-Cheese-French-Toast",
+      "title": "Masala Cheese French Toast",
+      "creator": {
+        "name": "Rakesh kumbhare ",
+        "email": "rkumbhare07@gmail.com"
+      },
+      "details": {
+        "image": "/images/masala-cheese-french-toast.jpg",
+        "summary": "Masala Cheese French Toast: Give the classic French toast a spicy twist by coating the bread in a mixture of herbs added in the luscious egg batter and a mixture of sauces along with cheese.",
+        "instructions": "1.Herb paste: In a blender make a paste of spring onions, basil, green chillies, coriander and chives. <br />\r\n2.Sauce paste: In a bowl mix chilli tomato ketchup, mustard and mayonnaise.\r\n<br />\r\n3.Egg mixture: In another bowl whisk egg whites with a little salt. Add the herb paste.\r\n<br />\r\n4.Take a bread slice. Apply the sauce paste and place 2 cheese slices. Place another sauce smothered bread. Repeat. Chill for 2-3 minutes.\r\n<br />\r\n5.Dip the bread-cheese-sauce sandwich in the egg mixture.\r\n<br />\r\n6.In a pan add some olive oil and cook the french toast till golden brown on both sides.\r\n<br />\r\n7.Cut into fingers and serve."
+      },
+      "date": "2025-11-06"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+$sub-color: #D1D1D1;
+$main-color: white;
+$border-color: #797979;
+$border-color-error: red;
+
+@mixin shrinkLabel {
+    top: -14px;
+    font-size: 12px;
+    color: $sub-color;
+}
+
+.formInput {
+    background: none;
+    background-color: transparent;
+    color: $main-color;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid $border-color;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:focus~.formInputLabel {
+        @include shrinkLabel();
+    }
+
+    &.error {
+        color: red;
+        border-bottom: 1px solid $border-color-error;
+    }
+}
+
+.errorMessage {
+    color: red;
+}
+
+
+.formInputLabel {
+    color: $sub-color;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 300ms ease all;
+
+    &.shrink {
+        @include shrinkLabel();
+    }
+}
+
+

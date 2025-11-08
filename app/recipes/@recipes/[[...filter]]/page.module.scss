@@ -1,0 +1,55 @@
+.recipes-filter {
+    color: white;
+    margin: 20px;
+    margin-bottom: 50px;
+    padding: 20px 0;
+
+    .hidden {
+        display: none;
+    }
+
+    .filter-container {
+        display: flex;
+        gap: 20px;
+        background-color: #A1A1A1;
+        padding: 20px 5px;
+
+        .title {
+            font-weight: 700;
+            -webkit-text-fill-color: transparent;
+            background: linear-gradient(90deg, #ff8a05, #f9b331);
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+
+        a {
+            color: white;
+        }
+    }
+
+    .separator {
+        border-bottom: 2px solid #A1A1A1;
+        margin: 10px 0;
+    }
+
+    .filter-list {
+        display: flex;
+        gap: 10px;
+        ;
+
+        a {
+            color: white;
+        }
+
+        .filter-item {
+            a {
+                display: flex;
+
+                svg {
+                    font-size: 20px;
+                    ;
+                }
+            }
+        }
+    }
+}
